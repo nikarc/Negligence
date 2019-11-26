@@ -1990,7 +1990,7 @@ U 1 1 5E756812
 P 14350 6050
 F 0 "C3" H 14300 6300 50  0000 L CNN
 F 1 "4.7u" H 14250 5800 50  0000 L CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 14350 6050 50  0001 C CNN
+F 2 "cftkb:CP_Radial_D4.0mm_P1.50mm" H 14350 6050 50  0001 C CNN
 F 3 "~" H 14350 6050 50  0001 C CNN
 	1    14350 6050
 	1    0    0    -1  
@@ -2097,8 +2097,6 @@ Text Label 6900 6350 0    50   ~ 0
 COL4
 Text Label 6900 6450 0    50   ~ 0
 COL3
-Text Label 6900 5350 0    50   ~ 0
-COL2
 Text Label 6900 6950 0    50   ~ 0
 D+
 Text Label 6900 7050 0    50   ~ 0
@@ -2106,5 +2104,7 @@ D-
 Text Label 6900 5450 0    50   ~ 0
 COL1
 Text Label 6900 5550 0    50   ~ 0
+COL2
+Text Label 6900 5350 0    50   ~ 0
 COL0
 $EndSCHEMATC
