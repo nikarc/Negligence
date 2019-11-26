@@ -1034,7 +1034,7 @@ U 1 1 5DF6B6B8
 P 10250 3000
 F 0 "SW41" H 10250 3233 60  0000 C CNN
 F 1 "keyboard_parts_KEYSW" H 10250 2900 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10250 3000 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 10250 3000 60  0001 C CNN
 F 3 "" H 10250 3000 60  0000 C CNN
 	1    10250 3000
 	1    0    0    -1  
@@ -1060,7 +1060,7 @@ U 1 1 5DF6B6CE
 P 11700 3000
 F 0 "SW42" H 11700 3233 60  0000 C CNN
 F 1 "keyboard_parts_KEYSW" H 11700 2900 60  0001 C CNN
-F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11700 3000 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 11700 3000 60  0001 C CNN
 F 3 "" H 11700 3000 60  0000 C CNN
 	1    11700 3000
 	1    0    0    -1  
@@ -1506,17 +1506,6 @@ Text Label 14400 1100 1    50   ~ 0
 COL10
 Text Label 15100 1100 1    50   ~ 0
 COL11
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
-U 1 1 5E157A11
-P 6300 6250
-F 0 "U1" H 6200 6300 50  0000 R CNN
-F 1 "ATmega328P-PU" H 6500 6200 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 6300 6250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6300 6250 50  0001 C CNN
-	1    6300 6250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 5E159BF5
@@ -2038,12 +2027,6 @@ F 3 " ~" H 6075 3650 50  0001 C CNN
 	1    7350 4200
 	0    1    1    0   
 $EndComp
-Text Label 6900 5450 0    50   ~ 0
-MISO
-Text Label 6900 5550 0    50   ~ 0
-SCK
-Text Label 6900 5350 0    50   ~ 0
-MOSI
 $Comp
 L power:+5V #PWR013
 U 1 1 5E8DA6A8
@@ -2077,4 +2060,47 @@ Wire Wire Line
 	7250 4600 7250 4650
 Wire Wire Line
 	7250 4650 7000 4650
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U1
+U 1 1 5E157A11
+P 6300 6250
+F 0 "U1" H 6200 6300 50  0000 R CNN
+F 1 "ATmega328P-PU" H 6500 6200 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 6300 6250 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6300 6250 50  0001 C CNN
+	1    6300 6250
+	1    0    0    -1  
+$EndComp
+Text Label 6900 7150 0    50   ~ 0
+COL9
+Wire Wire Line
+	6950 6050 6900 6050
+Text Label 6900 6850 0    50   ~ 0
+COL10
+Wire Wire Line
+	6950 6150 6900 6150
+Text Label 6900 6750 0    50   ~ 0
+COL11
+Wire Wire Line
+	6950 6250 6900 6250
+Text Label 6900 6450 0    50   ~ 0
+COL8
+Text Label 6900 6350 0    50   ~ 0
+COL7
+Wire Wire Line
+	6950 5950 6900 5950
+Text Label 6950 6250 0    50   ~ 0
+COL6
+Text Label 6950 6150 0    50   ~ 0
+COL5
+Text Label 6950 6050 0    50   ~ 0
+COL4
+Text Label 6950 5950 0    50   ~ 0
+COL3
+Text Label 6900 5550 0    50   ~ 0
+COL2
+Text Label 6900 6950 0    50   ~ 0
+D+
+Text Label 6900 7050 0    50   ~ 0
+D-
 $EndSCHEMATC
