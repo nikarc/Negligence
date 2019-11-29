@@ -2083,20 +2083,8 @@ Text Label 6900 6750 0    50   ~ 0
 COL11
 Wire Wire Line
 	6950 6250 6900 6250
-Text Label 6950 5950 0    50   ~ 0
-COL8
-Text Label 6950 6050 0    50   ~ 0
-COL7
 Wire Wire Line
 	6950 5950 6900 5950
-Text Label 6950 6150 0    50   ~ 0
-COL6
-Text Label 6950 6250 0    50   ~ 0
-COL5
-Text Label 6900 6350 0    50   ~ 0
-COL4
-Text Label 6900 6450 0    50   ~ 0
-COL3
 Text Label 6900 6950 0    50   ~ 0
 D+
 Text Label 6900 7050 0    50   ~ 0
@@ -2107,10 +2095,24 @@ Text Label 6900 5550 0    50   ~ 0
 COL2
 Text Label 6900 5350 0    50   ~ 0
 COL0
-Text Label 6900 5150 0    50   ~ 0
-ROW0
-Text Label 6900 5250 0    50   ~ 0
-ROW1
 Text Label 6900 5050 0    50   ~ 0
+ROW1
+Text Label 6900 5250 0    50   ~ 0
 ROW2
+Text Label 6900 5150 0    50   ~ 0
+ROW3
+Text Label 6900 6450 0    50   ~ 0
+COL3
+Text Label 6900 6350 0    50   ~ 0
+COL4
+Text Label 6950 6050 0    50   ~ 0
+COL7
+Text Label 6950 6150 0    50   ~ 0
+COL6
+Text Label 6950 5950 0    50   ~ 0
+COL8
+Text Label 6950 6250 0    50   ~ 0
+COL5
+Text Label 6950 7550 0    50   ~ 0
+ROW0
 $EndSCHEMATC
