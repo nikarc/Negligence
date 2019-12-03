@@ -271,7 +271,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6AC12)
-    (at 218.799 34.444)
+    (at 51.308 136.525)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04B0DD)
@@ -290,8 +290,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6AC0A)
-    (at 221.269 28.494)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6BC4C)
+    (at 238.506 74.93)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04BFB0)
@@ -311,7 +311,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6AC02)
-    (at 212.849 34.444)
+    (at 224.155 136.525)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04C0C4)
@@ -331,7 +331,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABFA)
-    (at 206.899 41.064)
+    (at 223.901 98.425)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04AB55)
@@ -351,7 +351,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABF2)
-    (at 215.319 28.494)
+    (at 17.018 54.102)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04B833)
@@ -371,7 +371,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABEA)
-    (at 206.899 35.114)
+    (at 51.435 98.425)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04BE24)
@@ -390,8 +390,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABE2)
-    (at 200.949 41.064)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6BDD9)
+    (at 128.524 117.475)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E0427A4)
@@ -410,8 +410,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABDA)
-    (at 209.369 28.494)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6BB86)
+    (at 238.252 53.975)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04B3C2)
@@ -431,7 +431,7 @@
   )
 
   (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5DE6ABD2)
-    (at 200.949 35.114)
+    (at 17.018 74.93)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /5E04B4F4)
@@ -1687,7 +1687,7 @@
     )
   )
 
-  (module cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN (layer F.Cu) (tedit 5CBD4103) (tstamp 5DDBB543)
+  (module cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN (layer F.Cu) (tedit 5CBD4103) (tstamp 5DE6BD78)
     (at 234.95 121.92)
     (descr "Cherry MX keyswitch, MX1A, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1.00u PCB")
