@@ -1,0 +1,36 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C4 C5,0.1u,C_Disc_D4.3mm_W1.9mm_P5.00mm,2,~
+2,Unpolarized capacitor,C,C1 C2,20p,C_Disc_D3.0mm_W1.6mm_P2.50mm,2,~
+3,"Polarized capacitor, US symbol",CP1,C3,4.7u,CP_Radial_D4.0mm_P1.50mm,1,~
+4,"100V 0.15A standard switching diode, DO-35",1N4148,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46,1N4148,D_DO-35_SOD27_P5.08mm_Horizontal,46,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+5,,Device_D_Zener_Small,D47 D48,3.6V,D_DO-35_SOD27_P5.08mm_Horizontal,2,
+6,RGB LED with integrated controller,SK6812,D49,SK6812,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,1,https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+7,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1,500mA,polyfuse_5.1mm,1,~
+8,Atmel 6-pin ISP connector,AVR-ISP-6,J1,AVR-ISP-6,AVR_ICSP_3x2,1, ~
+9,"Resistor, small symbol",R_Small,R2,1.5k,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,~
+10,"Resistor, small symbol",R_Small,R1,10k,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,~
+11,"Resistor, small symbol",R_Small,R3 R4,5.1k,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,2,~
+12,"Resistor, small symbol",R_Small,R5 R6,75R,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,2,~
+13,"Push button switch, generic, two pins",SW_Push,SW48,BOOT,SW_PUSH_6mm,1,~
+14,"Push button switch, generic, two pins",SW_Push,SW47,RESET,SW_PUSH_6mm,1,~
+15,,keyboard_parts_KEYSW,SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW19 SW20 SW21 SW22 SW23 SW24 SW25 SW26 SW27 SW28 SW29 SW30 SW31 SW32 SW33 SW34 SW35 SW36 SW37 SW38 SW39 SW40 SW43 SW44 SW45 SW46,keyboard_parts_KEYSW,SW_Cherry_MX1A_1.00u_PCB-NOSCREEN,44,
+16,,keyboard_parts_KEYSW,SW41 SW42,keyboard_parts_KEYSW,SW_Cherry_MX1A_2.00u_PCBNOSCREEN,2,
+17,"20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28",ATmega328P-PU,U1,ATmega328P-PU,DIP-28_W7.62mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+18,,USB_C_GCT_USB4085-Type-C,USB1,USB_C_GCT_USB4085-Type-C,USB_C_GCT_USB4085,1,
+19,,Device_Crystal,Y1,16MHz,Crystal_HC49-4H_Vertical,1,
+
+
+
+
+
+Component Groups:,19
+Component Count:,113
+Fitted Components:,113
+Number of PCBs:,1
+Total components:,113
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,"Tuesday, December 03, 2019 at 01:21:27 PM"
+Schematic Source:,/Users/nicholasarcuri/Documents/kicad/Negligence/Negligence.sch
+KiCad Version:,Eeschema (5.1.4-0-10_14)
