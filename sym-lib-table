@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name discipline-pcb-cache)(type Legacy)(uri ${KIPRJMOD}/discipline-pcb-cache.lib)(options "")(descr ""))
   (lib (name discipline-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/discipline-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name dk_Diodes-Rectifiers-Single)(type Legacy)(uri ${KIPRJMOD}/digikey-symbols/dk_Diodes-Rectifiers-Single.lib)(options "")(descr ""))
+  (lib (name dk_Diodes-Zener-Single)(type Legacy)(uri ${KIPRJMOD}/digikey-symbols/dk_Diodes-Zener-Single.lib)(options "")(descr ""))
 )
